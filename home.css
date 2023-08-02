@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-link{
+    color: white;
+  }
+
+/* 
+  #preloader{
+      height: 100vh;
+      width: 100%;
+      background: #fff url(images/preloader.gif) no-repeat center;
+      z-index: 1;
+  } */
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/china11.jpg);
+    
+}
+.card:hover{
+  transform: scale(1.15);
+  /* background: rgba(15, 154, 200, 0.853); */
+  border-radius: 10px;
+  opacity: 1;
+  }
+  .card{
+    opacity: 0.8;
+  }
+  .card{
+  transition: all 0.3s;
+  /* background: #000; */
+  }
